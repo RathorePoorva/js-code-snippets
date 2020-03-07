@@ -1,7 +1,7 @@
 # javascript-code-snippets
 
-| S.No. | Questions |
-|-------|-----------
+| CODE SNIPPETS | OUTPUT |
+|------------------|-----------
 
 const a = {
   i: 1,
