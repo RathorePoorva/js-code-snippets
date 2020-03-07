@@ -1,5 +1,8 @@
 # javascript-code-snippets
 
+| S.No. | Questions |
+|-------|-----------
+
 const a = {
   i: 1,
   toString: function () {
