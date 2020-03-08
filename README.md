@@ -7,7 +7,6 @@ const a = {
     return a.i++;
   }
 }
-
 if(a == 1 && a == 2 && a == 3) {
   console.log('Hello World!');
 }
@@ -25,12 +24,15 @@ if (NaN === NaN) {
   console.log("NaN cannot be compared to NaN");
 }
 ```
+OUTPUT:
+
 ```
 // Compare lowerCase with uppercase alphabets
 if("a" > "Z"){
   console.log("a > Z");
 }
 ```
+OUTPUT:
 
 ```
 function fun(n){
@@ -42,13 +44,12 @@ function fun(n){
     console.log(n);
   }
 }
-
 fun(3);
 ```
 OUTPUT:
 3  2  1  1  2  3
 
-
+```
 console.log(1);
 setTimeout(function() {
   console.log(2);
@@ -57,8 +58,6 @@ setTimeout(function() {
   console.log(3);
 }, 0);
 console.log(4);
-
-/*
+```
 OUTPUT:
 1  4  3  2
-*/
